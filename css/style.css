@@ -7,6 +7,7 @@
 /* general */
 body {
   font-family: 'Roboto', sans-serif;
+  color: #434750;
 }
 
 .container {
@@ -21,6 +22,7 @@ body {
 header {
   font-size: 35px;
   font-weight: 900;
+  color: black;
 }
 
 header img {
@@ -30,6 +32,10 @@ header img {
 }
 
 /*main*/
+main>div {
+  margin-top: 20px;
+}
+
 .selector-buttons #add-task,#add-section {
   padding: 5px 10px;
   border-radius: 5px;
@@ -44,4 +50,30 @@ header img {
 #add-section {
   border: 1px solid #C5CBD0;
   color: #C5CBD0;
+}
+
+.new-task{
+  margin-top: 30px;
+}
+
+.choices {
+  margin-top: 10px;
+}
+
+h4::before {
+    content: '\25BE';
+}
+
+#flag {
+  color: #55B9A0;
+  border: 1px solid #55B9A0;
+  border-radius: 50%;
+}
+
+#click-here {
+  padding: 5px 10px;
+  border-radius: 50px;
+  font-size: 10px;
+  background-color:#47ADF1;
+  color: white;
 }
