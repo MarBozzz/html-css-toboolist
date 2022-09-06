@@ -52,7 +52,7 @@ main>div {
   color: #C5CBD0;
 }
 
-.new-task{
+.new-task,.today {
   margin-top: 30px;
 }
 
@@ -70,10 +70,32 @@ h4::before {
   border-radius: 50%;
 }
 
+#cross {
+  color: #E7342B;
+  border: 1px solid #E7342B;
+  border-radius: 50%;
+}
+
 #click-here {
   padding: 5px 10px;
   border-radius: 50px;
-  font-size: 10px;
-  background-color:#47ADF1;
+  font-size: 10px;/*
+  background-color:#47ADF1;*/
   color: white;
+}
+
+.editorial {
+  background-color:#47ADF1;
+}
+
+.q1 {
+  background-color:#9C72E4; 
+}
+
+.recruiting {
+  background-color:#64C0A9; 
+}
+
+.mobile {
+  background-color:#F29E33; 
 }
