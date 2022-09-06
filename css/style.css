@@ -9,6 +9,14 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.container {
+  width: 50%;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+
 /*header*/
 header {
   font-size: 35px;
@@ -19,4 +27,21 @@ header img {
   width: 50px;
   vertical-align: middle;
   margin: 10px 0px 20px 20px;
+}
+
+/*main*/
+.selector-buttons #add-task,#add-section {
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 10px;
+}
+
+#add-task {
+  background-color:#47ADF1;
+  color: white;
+}
+
+#add-section {
+  border: 1px solid #C5CBD0;
+  color: #C5CBD0;
 }
